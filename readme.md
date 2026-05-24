@@ -343,9 +343,9 @@ Por consola, además de la salida propia de Spring Boot, deberá aparecer:
 
 ### Resultado de la ejecución
 
-Captura de la ejecución correcta del proyecto (`TutorialRabbitmqSpringApplication`):
+Captura de la ejecución correcta en **IntelliJ IDEA** (`TutorialRabbitmqSpringApplication`):
 
-![Ejecución exitosa](images/ejecucion-exitosa.png)
+![Ejecución exitosa en IntelliJ](images/ejecucion-intellij.png)
 
 ## 7. Conclusiones
 La integración de RabbitMQ con Spring no tiene ninguna dificultad, pues en un rato hemos sido capaces de crear desde cero un proyecto que se sirve del framework Spring para enviar mensajes a través de RabbitMQ.
