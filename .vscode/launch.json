@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "TutorialRabbitmqSpringApplication",
+      "request": "launch",
+      "mainClass": "tutoriales.rabbitmq.spring.TutorialRabbitmqSpringApplication",
+      "projectName": "tutorial-rabbitmq-spring",
+      "vmArgs": "--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED"
+    }
+  ]
+}
