@@ -15,25 +15,6 @@ Spring Boot es un marco de trabajo que facilita la creación de aplicaciones bas
 
 En este tutorial, aprenderás a configurar e integrar RabbitMQ en una aplicación Spring Boot. Crearemos un proyecto desde cero utilizando IntelliJ IDEA, configuraremos RabbitMQ, y desarrollaremos un ejemplo práctico de productor y consumidor de mensajes. Al finalizar este tutorial, tendrás una comprensión clara de cómo utilizar RabbitMQ en un entorno Spring Boot para manejar la mensajería asincrónica.
 
-## Checklist de la actividad
-
-| # | Paso | Detalle | Tipo | Estado |
-|---|------|---------|------|--------|
-| 1 | Instalar RabbitMQ | `brew install rabbitmq` | Comando | ✅ Listo |
-| 2 | Ejecutar el servidor | `rabbitmq-server` (Docker en `localhost:5672`) | Comando | ✅ Listo |
-| 3 | Crear proyecto | Spring Boot / Maven (VS Code en lugar de IntelliJ) | IDE | ✅ Listo |
-| 4 | Configurar proyecto | `tutoriales.rabbitmq.spring`, Java 1.8, Maven, Jar | IDE | ✅ Listo |
-| 5 | Añadir pom.xml como Maven | Importación Maven en VS Code | IDE | ✅ Listo |
-| 6 | Sincronizar dependencias | `mvn validate` sin errores | IDE | ✅ Listo |
-| 7 | Editar pom.xml | `spring-boot-starter-amqp` v1.2.6 | Archivo | ✅ Listo |
-| 8 | Crear `Receiver.java` | Imprime el mensaje recibido | Código | ✅ Listo |
-| 9 | Crear `RabbitMqConfig.java` | Cola, exchange, binding y listener | Código | ✅ Listo |
-| 10 | Crear `TutorialRabbitmqSpringApplication.java` | Envía el mensaje con `RabbitTemplate` | Código | ✅ Listo |
-| 11 | (Opcional) Contexto Spring | Project Structure → Spring | IDE | ⏭️ No aplica (VS Code) |
-| 12 | (Opcional) Añadir config al contexto | `RabbitMqConfig.java` | IDE | ⏭️ No aplica (VS Code) |
-| 13 | Verificar servidor activo | RabbitMQ en puerto 5672 | Comando | ✅ Listo |
-| 14 | Ejecutar la aplicación | Run en `TutorialRabbitmqSpringApplication` | IDE | ✅ Listo |
-
 ## 2. Entorno
 Este tutorial se ha desarrollado en el siguiente entorno:
 
